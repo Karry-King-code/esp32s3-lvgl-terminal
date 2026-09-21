@@ -1,0 +1,15 @@
+# ===== 文档/手册/教程不入库 =====
+/*.md
+!/README.md
+/*.pdf
+/images/
+
+# ===== 网盘安装包 =====
+/ESP/
+
+# ===== 编译产物 =====
+esp32s3-lvgl-terminal/.pio/
+*.o
+*.d
+build/
+esp32s3-lvgl-terminal/SquareLine_Project/backup/
